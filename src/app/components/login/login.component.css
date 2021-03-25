@@ -1,0 +1,49 @@
+.sign-in-container {
+  height: 100vh;
+  display: grid;
+}
+
+.sign-in-container>* {
+  justify-self: center;
+  align-self: center
+}
+
+.sign-in-card {
+  width: 400px;
+  /* height: 360px; */
+  padding: 32px;
+}
+
+.nested-grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 1em;
+}
+
+.sign-in-card-actions {
+  padding-right: 8px;
+  text-align: center;
+}
+
+.sign-in-card-footer {
+  padding: 16px;
+}
+
+.full-width-input {
+  width: 100%;
+}
+
+.mat-form-field-underline {
+  display: none;
+}
+
+.mat-form-field-flex {
+  border-bottom: 1px solid #3f51b5;
+}
+
+.container {
+  background: url('../../../assets/images/background.jpeg') no-repeat center center fixed;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
